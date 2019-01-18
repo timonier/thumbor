@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e -u
+
+dockerize -delims '⁅⁅:⁆⁆' -template /etc/thumbor/thumbor.conf:/etc/thumbor/thumbor.conf

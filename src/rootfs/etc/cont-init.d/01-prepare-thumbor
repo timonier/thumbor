@@ -2,4 +2,3 @@
 set -e -u
 
 dockerize -delims '⁅⁅:⁆⁆' -template /etc/thumbor/thumbor.conf:/etc/thumbor/thumbor.conf
-dockerize -delims '\u2045\u2045:\u2046\u2046' -template /etc/thumbor/thumbor.conf:/etc/thumbor/thumbor.conf
